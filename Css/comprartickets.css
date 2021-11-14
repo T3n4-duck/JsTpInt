@@ -1,0 +1,74 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+box-sizing: inherit;
+}
+a{ 
+    text-decoration: none;
+}
+.header{
+    background-color: #353A40;
+}
+.nava{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.nava a{
+    font-size: 1rem;
+    color: #949c9e;
+}
+#conf{
+    margin-right: 6rem;
+    color: white;
+}
+#anw{
+    color: white;
+}
+#ang{
+    color: green;
+}
+.cards2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.letters{
+    color: black;
+}
+.g-letters{
+    color: gray;
+}
+.titulo-med{
+    text-align: center;
+}
+.formulario-tickets{
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+.SendButton{
+    margin-left: 0.5rem;
+}
+.SendButton button{
+    height: 3rem;
+    width: 25rem;
+    border-color:#A7DB52;;
+    background-color: #A7DB52;
+}
+.footer{
+    background-image: linear-gradient(to right, #1d3746 0%, #1e5170 100%);
+}
+.footer-cont{
+    padding-right: 3rem;
+    padding-left: 5rem;
+    height: 5rem;
+}
+.footer-navbar a{
+    font-size: 1rem;
+    color: white;
+}
